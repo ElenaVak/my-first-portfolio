@@ -1,0 +1,25 @@
+body{background-image:url(https://clipart-db.ru/file_content/rastr/xbackground_065.jpg.pagespeed.ic.tCxzRk_a_C.webp)}
+
+h1 {
+    width: calc(100% - 20px);
+    height: 40px;
+    background-color: rgb(120, 135, 143);
+    font-family: Helvetica, sans-serif;
+ padding: 15px;
+    }
+
+ul {
+    width: 200px;
+    background: #a29fac;
+   list-style: none;
+    padding-left: 0;
+   }
+    
+   li {
+    padding: 10px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid #3c3c3c;
+    color: cadetblue;
+   }
+button{background-color: rgb(145, 138, 104);color: rgb(57, 48, 58);}
+hr{color: rgb(16, 15, 17);}
