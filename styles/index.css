@@ -1,25 +1,110 @@
-body{background-image:url(https://clipart-db.ru/file_content/rastr/xbackground_065.jpg.pagespeed.ic.tCxzRk_a_C.webp)}
+body {
+    margin: 0;
 
-h1 {
-    width: calc(100% - 20px);
-    height: 40px;
-    background-color: rgb(120, 135, 143);
-    font-family: Helvetica, sans-serif;
- padding: 15px;
-    }
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: hsl(212, 12%, 32%);
 
-ul {
-    width: 200px;
-    background: #a29fac;
-   list-style: none;
-    padding-left: 0;
-   }
+background-color: #fff
+}
+
+*,
+*:before,
+*:after
+{
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5 {
+margin: 0;
+}
+
+p {
+margin: 0 0 10px;
+}
+
+.header {
+    height: 700px;
+    background: #92ccf0 url("https://html-templates.info/images/pages/140520040155.jpg");
     
-   li {
-    padding: 10px;
-    border-bottom: 1px solid black;
-    border-top: 1px solid #3c3c3c;
-    color: cadetblue;
-   }
-button{background-color: rgb(145, 138, 104);color: rgb(57, 48, 58);}
-hr{color: rgb(16, 15, 17);}
+}
+
+
+/*heading===========*/
+.intro {
+    height: 30em;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    height: 750px;
+    padding-top: 100px;
+}
+
+.highlight {
+    color: rgb(51, 92, 168);
+}
+
+
+
+.intro_inner {
+    width: 100%;
+max-width: 970px;
+margin: 0 auto;
+text-align: center;
+}
+
+.intro_title {
+    margin-bottom: 60px;
+  font-family: Regular, sans-serif;
+  color:#fff;
+  font-size: 50px;
+  line-height: 1.1;
+  font-weight: 700;
+  text-transform: unset;
+
+  
+}
+
+/* Button ================*/
+.btn-large {
+    display: inline-block;
+    background-color: rgb(113, 173, 230);
+}
+
+
+.btn-large:hover {
+    background-color: rgb(126, 164, 199);
+} 
+
+
+/*navigation===========*/
+.flex {
+    background-color: rgb(126, 164, 199);
+}
+
+
+.about-me {
+    height: 750px;
+}
+
+. large {
+    font-size: 30px
+    tiny: 1rem
+    small: 2rem
+    medium: 4rem
+    large: 6rem 
+}
+
+.professional-experience {
+    height: 750px;
+}
+.professional-skills {
+    height: 750px;
+}
+.page-footer {
+    background: rgb(113, 173, 230)
+}
+
+
+
