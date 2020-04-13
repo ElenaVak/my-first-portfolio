@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
 
@@ -24,8 +25,10 @@ margin: 0 0 10px;
 }
 
 .header {
-    height: 700px;
+    height: 100%;
     background: #92ccf0 url("https://html-templates.info/images/pages/140520040155.jpg");
+    
+    /*fixirovat=====*/
     
 }
 
@@ -39,6 +42,8 @@ margin: 0 0 10px;
     display: flex;
     height: 750px;
     padding-top: 100px;
+    font-size: 24px;
+
 }
 
 .highlight {
@@ -47,7 +52,7 @@ margin: 0 0 10px;
 
 
 
-.intro_inner {
+.container {
     width: 100%;
 max-width: 970px;
 margin: 0 auto;
@@ -84,21 +89,111 @@ text-align: center;
 }
 
 
+
 .about-me {
     height: 750px;
 }
 
-. large {
-    font-size: 30px
-    tiny: 1rem
-    small: 2rem
-    medium: 4rem
-    large: 6rem 
+/*button_sk=======*/
+#button {
+    display: inline-block;
+    background-color: rgb(126, 164, 199);
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    margin: 30px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s;
+    z-index: 1000;
+  }
+  #button:hover {
+    cursor: pointer;
+    background-color: #333;
+  }
+  #button:active {
+    background-color: #555;
+  }
+  #button::after {
+    content: "\f077";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: #fff;
+  }
+
+/*Anim========*/
+
+#about-me {
+    margin-top: 40px;
+    margin-bottom: 60px;
 }
+
+.slideRight{
+    animation-name: slideRight;
+    -webkit-animation-name: slideRight; 
+ 
+    animation-duration: 2s; 
+    -webkit-animation-duration: 2s;
+ 
+    animation-timing-function: ease-in-out; 
+    -webkit-animation-timing-function: ease-in-out;     
+ 
+    visibility: visible !important; 
+}
+ 
+@keyframes slideRight {
+    0% {
+        transform: translateX(-150%);
+    }
+    50%{
+        transform: translateX(8%);
+    }
+    65%{
+        transform: translateX(-4%);
+    }
+    80%{
+        transform: translateX(4%);
+    }
+    95%{
+        transform: translateX(-2%);
+    }           
+    100% {
+        transform: translateX(0%);
+    }   
+}
+ 
+@-webkit-keyframes slideRight {
+    0% {
+        -webkit-transform: translateX(-150%);
+    }
+    50%{
+        -webkit-transform: translateX(8%);
+    }
+    65%{
+        -webkit-transform: translateX(-4%);
+    }
+    80%{
+        -webkit-transform: translateX(4%);
+    }
+    95%{
+        -webkit-transform: translateX(-2%);
+    }           
+    100% {
+        -webkit-transform: translateX(0%);
+    }
+}
+
+
 
 .professional-experience {
     height: 750px;
 }
+
 .professional-skills {
     height: 750px;
 }
