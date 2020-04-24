@@ -1,19 +1,17 @@
 
 body {
     margin: 0;
-
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
-    color: hsl(212, 17%, 43%);
-
-background-color: #fff
+    color: grey;
+    background-color: #fff
 }
 
 *,
 *:before,
 *:after
 {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 h1, h2, h3, h4, h5 {
@@ -35,7 +33,6 @@ margin: 0 0 10px;
 .intro {
     height: 30em;
     align-items: center;
-    display: flex;
     justify-content: center;
     display: flex;
     height: 750px;
@@ -54,7 +51,7 @@ font-family: Tahoma, sans-serif;
 
 
 .intro_title {
-    margin-bottom: 60px;
+  margin-bottom: 60px;
   font-family: Regular, sans-serif;
   color:#fff;
   font-size: 50px;
@@ -75,13 +72,21 @@ font-family: Tahoma, sans-serif;
 } 
 
 
+
 .flex {
     background-color: rgb(126, 164, 199);
 }
 
+.presentation {
+  width: 100%;
+max-width: 970px;
+margin: 0 auto;
+text-align: center;
+}
+
 #about-me {
-    margin-top: 40px;
-    margin-bottom: 60px;
+    margin-top: 150px;
+    margin-bottom: 200px;
 }
 
 .slideRight{
@@ -94,7 +99,7 @@ font-family: Tahoma, sans-serif;
     visibility: visible !important; 
 }
  
-@keyframes slideRight {
+ @keyframes slideRight {
     0% {
         transform: translateX(-150%);
     }
@@ -114,29 +119,26 @@ font-family: Tahoma, sans-serif;
         transform: translateX(0%);
     }   
 }
- 
-
-
-.row {
-  margin-top: 10pc;
-}
 
 .container {
-  width: 100%;
-max-width: 970px;
-margin: 0 auto;
-text-align: center;
+  margin: auto;
+  width: 70%;
+  margin: 0 auto;
+  height: auto;
+  min-height: 700px;
 }
 
-.block {
-    margin-top: 40px;
-    margin-left: 220px;
-}
+
 
 img {
-   
-    width: 500px;
+  margin: auto;
+    width: 600px;
     height: 400px;
+}
+
+#experience {
+  margin-top: 100px;
+  height: 150px;
 }
 
 .view {
@@ -153,7 +155,7 @@ img {
   
   .view .mask,
   .view .content {
-    width: 500px;
+    width: 600px;
     height: 400px;
     position: absolute;
     overflow: hidden;
@@ -308,13 +310,12 @@ img {
   }
 
 
- .professional-skills {
-    height: 750px;
+ #professional-skills {
+  margin-top: 100px;
+  height: 150px;
 }
 
-.page-footer {
-  background: rgb(113, 173, 230)
-}
+
 
 
 
@@ -348,38 +349,20 @@ img {
   }
 }
 
-.back-to-top {
+.page-footer {
+  background: rgb(113, 173, 230)
+}
+
+.far {
   position: fixed;
   right: 10px;
-  bottom: 100px;
-  width: 50px;
-  height: 50px;
-  border: transparent;
-  border-radius: 50%;
-  background-color: rgb(126, 164, 199);
- 
+  bottom: 50px;
 }
 
-.back-to-top:hover,
-.back-to-top:focus {
-filter: brightness(1.5);
-outline: none;
+.far:hover,
+.far:focus {
+  filter: brightness(1.5);
+
 }
 
-.back-to-top::before,
-.back-to-top::after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.back-to-top::before {
-  width: 5px;
-  height: 25px;
-  border-top-left-radius: 3px;
-  border-top-right-radius: 3px;
-  background-color: #f5f0f6;
-}
 
