@@ -1,0 +1,29 @@
+{
+  "name": "server-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start:express": "node express-index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElenaVak/my-first-portfolio.git"
+  },
+  "keywords": [
+    "Portfolio"
+  ],
+  "author": "Vakulenko Elena",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ElenaVak/my-first-portfolio/issues"
+  },
+  "homepage": "https://github.com/ElenaVak/my-first-portfolio#readme"
+}
