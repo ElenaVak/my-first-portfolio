@@ -6,22 +6,17 @@ const port = 3000
 const app = express();
 
 app.engine('handlebars', exphbs());
+
 app.set('view engine', 'handlebars');
 
 app.use(express.static('public'));
 
 app.get('/', function (req, res) {
-    res.render('home');
-    });
-
-app.get('/hello', function(req, res) {
-    res.send("Hello There!")
+    res.render('home')
 });
 
-
-
 app.get('/about', function(req, res) {
-    res.sendFile(path.join(__dirname+'/public/about.html'))
+    res.render('about')
 });
 
 app.get('/experience', function(req, res) {
